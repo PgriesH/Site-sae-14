@@ -1,0 +1,142 @@
+﻿body {
+    background: linear-gradient(90deg, #0f306e, #250558);
+}
+
+/*------------------------------------------------------------*/
+/* Class pour la présentation des images                      */
+/*------------------------------------------------------------*/
+.Img_droite {
+    width: 100%;
+   }
+
+.Img_gauche {
+    width: 100%;
+}
+
+.Img_flag{
+    max-height: 100%;
+    width: auto;
+    direction: revert;
+    margin-left: 45px;
+}
+/*-------------------------------------------*/
+/*Class pour les textes en général           */
+/*-------------------------------------------*/
+.Titre{
+    font-family: 'Lora', serif;
+    color:white ;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.Infos{
+    font-family: 'Lora', serif;
+    color: white;
+    text-align: center;
+}
+
+.Infos p{
+    border: 5px solid black;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px white;
+    background-color: rgba(240,240,240,0.5);
+    transition-duration:1s;
+}
+
+.Infos p:hover{
+    background-color: cadetblue;
+    color: black;
+    transition-duration:1s;
+}
+
+.contacts{
+    font-family: 'Merriweather', serif;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+a{
+    color:cyan ;
+    transition-duration:1s;
+}
+
+a:hover{
+    color: red;
+    transition-duration:1s;
+}
+
+footer{
+    color:white ;
+    margin-top: 40px;
+    text-align: left;
+}
+
+/*------------------------------------------------------------*/
+/* Class pour la présentation en "flex" et textes associés    */
+/*------------------------------------------------------------*/
+.Sec_def{
+    display :flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+article{
+    border: solid 3px black;
+    margin : 10px 0.5% ;
+    border-radius: 10px;
+    font-family: 'Lora', serif;
+    background-color: rgba(240,240,240,0.5);
+    box-sizing: border-box;
+    padding : 10px;
+    color: white;
+    text-align: center;
+}
+
+art_centre{
+    margin : 10px 0.5% ;
+    font-family: 'Lora', serif;
+    box-sizing: border-box;
+    padding : 10px;
+    color: white;
+    text-align: center;
+}
+
+.art1-3{
+    flex-basis : calc(100% / 3 - 20px);
+}
+
+/* Elements non utilisé pour le moment */
+/*
+.art2-3{
+
+    flex-basis: 66%;
+}
+
+.art3-3 {
+    flex-basis: 100%;
+}
+*/
+/*--------------------------------------------------------------------------*/
+/* Class Infos_bgr pour le premier bloc de la page IA (avec fond d'écran    */
+/*--------------------------------------------------------------------------*/
+.Infos_bgr{
+    font-family: 'Lora', serif;
+    color: white;
+    text-align: center;
+}
+
+.Infos_bgr p{
+    border: 5px solid black;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px white;
+    background-color: rgba(240,240,240,0.5);
+    background-image: url("images/algo.jpg");
+    transition-duration:1s;
+}
+
+
